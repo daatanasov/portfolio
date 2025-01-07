@@ -168,7 +168,7 @@ const ProjectsSkillsShowcase = () => {
             <motion.div key={project.title} variants={itemVariants}>
               <Card>
                 <CardContent className="p-6">
-                  <div className="grid gap-4 md:grid-cols-2 items-start mb-4">
+                  <div className="grid gap-6 md:gap-4 md:grid-cols-[3fr_1fr] items-start mb-4">
                     <div>
                       <h3 className="text-xl font-semibold mb-2">
                         {project.title}
