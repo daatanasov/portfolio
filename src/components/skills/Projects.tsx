@@ -26,7 +26,7 @@ const ProjectsSkillsShowcase = () => {
       category: 'web',
       gitRepoStatus: 'Public',
       projectStatus: 'Live',
-      link: '',
+      link: 'https://portfolio-yvla.vercel.app/',
       gitLink: 'https://github.com/daatanasov/portfolio',
       projectCreation: 'Solo'
     },
