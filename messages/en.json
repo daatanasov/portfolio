@@ -1,0 +1,139 @@
+{
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "IndexPage": {
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+    "title": "next-intl example"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Manifest": {
+    "name": "next-intl example"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "skills": "Skills"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl.dev",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pathnames"
+  },
+  "AboutMe": {
+    "aboutMeHeader": "About me",
+    "description": "I am a self-taught, highly motivated professional with a strong passion for continuous learning and personal growth. Known for my ability to adapt quickly, I excel in acquiring new skills and tackling complex challenges head-on. I thrive in dynamic environments that push me beyond my comfort zone, allowing me to deliver innovative solutions to demanding problems. With a positive outlook and a proactive approach, I enjoy collaborating with others and offering support to ensure collective success. I am dedicated to maintaining a high level of enthusiasm and resilience, no matter the circumstances.",
+    "educationHeader": "Education",
+    "universityName": "University of Architecture, Civil Engineering and Geodesy (UACEG)",
+    "city": "Sofia, Bulgaria",
+    "universityDescription": "During my studies, I specialized in engineering principles and hydrological systems, focusing on: Engineering Hydrology, Construction Machinery, Engineering, Geology and Hydrology, Structural Mechanics, etc. My education provided a comprehensive understanding of water resource management, structural design, and hydrological engineering.",
+    "universitySpecilization": "Master of Irrigation and Drainage Engineering",
+    "schoolName": "SPGE “John Atanasov”",
+    "schoolDescription": "My high school education laid a strong foundation in electronics and electrical engineering, covering: Electrical Engineering, Technical Drawing and Documentation, Analog and Digital Circuits, Converter Circuits, Application Software, Low Voltage Systems, Programming Basics, Fundamentals of Networking. This background equipped me with essential technical skills and a solid understanding of programming, system design, and electronics.",
+    "schoolSpecilization": "Microprocessors and Electronics",
+    "hobbiesHeader": "Hobbies",
+    "strengthsHeader": "Strengths",
+    "hobbiesFootball": "Football",
+    "hobbiesFootballDescription": "Playing and watching football matches",
+    "hobbiesReading": "Reading",
+    "hobbiesReadingDescription": "Exploring new worlds through books",
+    "hobbiesMovies": "Movies",
+    "hobbiesMoviesDescription": "Enjoying various genres of films",
+    "hobbiesMusic": "Music",
+    "hobbiesMusicDescription": "Listening to favorite tunes",
+    "hobbiesGaming": "Gaming",
+    "hobbiesGamingDescription": "Playing video games",
+    "hobbiesSocial": "Social",
+    "hobbiesSocialDescription": "Going out with friends",
+    "strengthMotivated": "Highly Motivated",
+    "strengthMotivatedDescription": "Positive attitude and strong motivation",
+    "strengthCommunicative": "Communicative",
+    "strengthCommunicativeDescription": "Team player with excellent communication skills",
+    "strengthBrain": "Critical Thinking",
+    "strengthBrainDescription": "Strong problem-solving and analytical abilities",
+    "strengthCharismatic": "Charismatic",
+    "strengthCharismaticDescription": "Confident and engaging speaker",
+    "strengthLearner": "Learner",
+    "strengthLearnerDescription": "Adaptable and fast at acquiring new skills"
+  },
+  "ShortDescription": {
+    "aboutMeDescription": "<heading>Hi, I am Dincho Atanasov,</heading><description>a frontend developer, focusing on crafting intuitive and visually appealing interfaces that enhance usability and drive user engagement.</description><location>Sofia, Bulgaria</location>"
+  },
+  "Working": {
+    "detailedOblakDescription": "Developed and maintained dynamic web applications using React, TypeScript, Redux, and Saga. Contributed to backend development and deployment processes using PHP, .NET, Docker, and SQL databases. Played a key role across multiple stages of the development lifecycle, including frontend, backend, deployment, support, and desktop application development. Worked on diverse projects, such as a virtual machine management platform and a sync-and-share application for files and folders, ensuring compatibility across multiple operating systems. Additionally, configured and optimized servers using Apache, IIS, and other platforms, while gaining hands-on experience with networking settings and protocols. These efforts enhanced application performance, ensured seamless connectivity, and contributed to robust system operations.",
+    "detailedLogischolDescription": "Designed and delivered engaging lessons to teach programming fundamentals and principles to young learners. Utilized creative projects and interactive games to foster curiosity, problem-solving, and logical thinking in students.",
+    "detailedOvergasDescription": "Conducted on-site data collection and reporting related to gas usage, ensuring accuracy and completeness of records.",
+    "overgasPossition": "Reporting and collecting of gas data",
+    "overgasCompany": "\"Overgas Service\" AD",
+    "detailedConsultDescription": "Managed office operations, including organizing documentation, scheduling meetings, and liaising with external parties. Assisted in the generation and processing of architectural certificates.",
+    "consultPossition": "Office Managerr",
+    "consultCompany": "\"RK Consult\"",
+    "detailedGastecDescription": "Designed and planned gas installations for indoor buildings, ensuring compliance with technical and safety standards. Installed and monitored gas systems, conducting measurements and maintenance to support system functionality.",
+    "gastecCompany": "\"Gastec BG\" AD",
+    "gastecPossition": "Constructional Engineering Intern",
+    "programmingExperience": "Programming Experience",
+    "otherExperience": "Other Jobs",
+    "hide": "Hide",
+    "haemimontDescription": "Developed and maintained dynamic web applications using React, TypeScript, Redux, and Saga. Gained hands-on experience with PHP, .NET, Docker, and SQL databases, contributing to backend development and deployment processes.",
+    "logischoolDescription": "Designed interactive lessons that introduced fundamental programming principles through games and creative projects."
+  },
+  "Projects": {
+    "title": "Projects",
+    "emptySearch": "Nothing Found",
+    "search": "Search technolgies...",
+    "oblakDescription": "Oblak.bg is a robust cloud solution for creating and managing virtual machines.",
+    "diskDescription": "Disk.bg is a sync and share platform.",
+    "portfolioDescription": "My personal Portofolio showcasing my projects, skills, and expertise.",
+    "casinoDescription": "A dynamic and interactive casino game platform with real-time user interactions.",
+    "backofficeDescription": "Employee management platform.",
+    "recruitmentDescription": "A recruitment page designed to streamline the hiring process.",
+    "installDescription": "A dedicated page for downloading desktop and mobile applications.",
+    "detailedPortfolioDescription": "An interactive portfolio showcasing my projects, skills, and expertise. Built with Next.js and TypeScript. Enhanced interactivity with Three.js for pixel shader animations and Framer Motion for smooth transitions. Styled using Tailwind CSS and Shadcn/UI for a modern design.",
+    "detailedCasinoDescription": "A dynamic and interactive casino game platform with real-time user interactions. Developed using Next.js, Tailwind CSS, and Shadcn/UI for responsive design. Leveraged PixiJS for immersive game animations. Built with Express.js using TypeScript and implemented WebSocket for real-time communication.",
+    "detailedCasinoTitle": "Casino Games",
+    "detailedOblakTitle": "Oblak.bg – Cloud Platform",
+    "detailedOblakDescription": "Oblak.bg is a robust cloud solution for creating and managing virtual machines. Built using React, TypeScript, Redux, and Saga, ensuring a seamless and responsive user interface. Developed using C# with microservices architecture, utilizing SOAP APIs and RESTful APIs. Worked with MS SQL and MongoDB for data management. Involved in networking, DNS management, and protocol handling to improve platform scalability and performance. Contributed to the legacy system using .NET Razor with jQuery. Minor contributions with Python to enhance backend capabilities.",
+    "detailedDiskTitle": "Disk.bg – File Synchronization and Sharing Platform",
+    "detailedDiskDescription": "Disk.bg is a file sync and sharing platform enabling users to manage files, photos, and folders efficiently. Developed with React, Vue.js, and PHP to create a modern and responsive interface. Utilized PHP with Symfony for robust server-side development. Employed MariaDB and Redis for caching and efficient data handling. Developed desktop applications in C++ to extend platform functionality.",
+    "detailedBackofficeDescription": "Employee management platform. A comprehensive internal platform for managing employee data, enabling edits, updates, and monitoring. Built with .NET Razor for dynamic server-side rendering. Utilized MS SQL and microservices for reliable and scalable data operations.",
+    "detailedRecruitmentDescription": "A recruitment page designed to streamline the hiring process by integrating with SmartRecruiter API. Built with React and TypeScript to provide a user-friendly and efficient interface.",
+    "detailedInstallDescription": "A dedicated page for downloading desktop and mobile applications. Developed using PHP with Laravel Blade templates for simple and efficient rendering"
+  },
+  "Contact": {
+    "name": "Name",
+    "yourName": "Enter Your Name",
+    "email": "Email",
+    "yourEmail": "Enter Your Email",
+    "message": "Your Message",
+    "yourMessage": "Write your message here",
+    "copyPhone": "Copy phone number",
+    "copyEmail": "Copy email address",
+    "submit": "Submit",
+    "successfulyCopied": "Succesful copied "
+  }
+}
