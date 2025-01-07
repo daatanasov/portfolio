@@ -138,7 +138,6 @@ const ProjectsSkillsShowcase = () => {
 
   return (
     <section className="mb-8">
-      {/* <div className="w-full max-w-4xl mx-auto p-6 space-y-8"> */}
       <div className="flex flex-col md:flex-row md:items-center items-start justify-between mb-6">
         <h2 className="text-2xl font-bold flex items-center gap-2 mb-4 md:mb-0">
           <FolderGit2 className="w-6 h-6" />
@@ -165,16 +164,18 @@ const ProjectsSkillsShowcase = () => {
         className="grid gap-6"
       >
         {filteredProjects.length ? (
-          filteredProjects.map((project, index) => (
+          filteredProjects.map((project) => (
             <motion.div key={project.title} variants={itemVariants}>
               <Card>
                 <CardContent className="p-6">
-                  <div className="flex justify-between items-start mb-4">
+                  <div className="grid gap-4 md:grid-cols-2 items-start mb-4">
                     <div>
                       <h3 className="text-xl font-semibold mb-2">
                         {project.title}
                       </h3>
-                      <p className="mb-4 px-2">{project.description}</p>
+                      <p className="mb-4 px-2 break-words">
+                        {project.description}
+                      </p>
                     </div>
                     <div className="flex flex-col min-w-36">
                       {project.gitRepoStatus === 'Private' ? (
@@ -253,7 +254,6 @@ const ProjectsSkillsShowcase = () => {
           <p>{t('emptySearch')}</p>
         )}
       </motion.div>
-      {/* </div> */}
     </section>
   );
 };
