@@ -79,21 +79,21 @@ export default function ProjectsCarousel() {
       name: 'Backoffice Web Application',
       description: t('backofficeDescription'),
       image: backoffice,
-      link: ''
+      link: null
     },
     {
       id: 6,
       name: 'Recruitment Web Application',
       description: t('recruitmentDescription'),
       image: recruitment,
-      link: ''
+      link: null
     },
     {
       id: 7,
       name: 'Install Web Application',
       description: t('installDescription'),
       image: install,
-      link: ''
+      link: null
     }
   ];
 
@@ -109,8 +109,10 @@ export default function ProjectsCarousel() {
     );
   };
 
-  const handleCardClick = (link: string) => {
-    window.open(link, '_blank');
+  const handleCardClick = (link: string | null) => {
+    if (link) {
+      window.open(link, '_blank');
+    }
   };
 
   const swipeHandlers = useSwipeable({
@@ -147,7 +149,7 @@ export default function ProjectsCarousel() {
                     </div>
                   </CardHeader>
                   <CardContent className="p-4 md:p-6 relative">
-                    {project.link !== '' && (
+                    {project.link  && (
                       <a
                         href={project.link}
                         target="_blank"

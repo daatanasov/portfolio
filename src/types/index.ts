@@ -19,7 +19,7 @@ export interface Project {
   name: string;
   description: string;
   image: StaticImageData;
-  link: string; // URL for live project or GitHub
+  link: string | null; // URL for live project or GitHub
 }
 
 export interface Education {

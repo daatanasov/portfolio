@@ -4,11 +4,11 @@
     "title": "Etwas ist schief gelaufen!"
   },
   "IndexPage": {
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
-    "title": "next-intl Beispiel"
+    "description": "",
+    "title": "Dincho portfolio"
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "Dincho portfolio"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
